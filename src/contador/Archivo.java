@@ -48,7 +48,7 @@ public class Archivo {
 	            contador++;
 	        }
 	    }
-	    System.out.print(this.path +" "+ contador + " Veces \n");
+	    System.out.print(this.path.split("/")[this.path.split("/").length-1]+" "+ contador + " Veces \n");
 	    return contador;
 	}
 	
